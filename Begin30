@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+   double r,g, pi=3.14;
+   cout << "Imput Radiana "; 
+   cin >> r;
+   g=(180/pi)*r;
+   cout << "Gradus " << g << endl;
+}
